@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DogBreedClassifier</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="forums_listview_rows_image">forums listview rows image</string>
+    <string name="classify">Classify</string>
+    <string name="forum">Forum</string>
+    <string name="logout">Logout</string>
+</resources>

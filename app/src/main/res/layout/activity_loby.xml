@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F1E8"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/classify_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/forum_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:padding="5dp"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="@string/classify"
+        android:textColor="#E43D40"
+        android:textSize="25sp"
+
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/forum_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:padding="5dp"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="@string/forum"
+        android:textColor="#F85C70"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forum_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:padding="5dp"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="@string/logout"
+        android:textColor="#F37970"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
